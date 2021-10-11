@@ -56,6 +56,7 @@ quicksort :: (Ord a) => [a] -> [a]
 quicksort [] = []
 quicksort (x:xs) = quicksort [y | y <- xs, y <= x] ++ [x] ++ quicksort [y | y <- xs, y > x]
 
+
 {-
 7. Scrieti o functie ce evalueaza expresii sub forma poloneza postfixata. Expresia de calculat va fi transmisa functiei sub forma unui sir de caractere.
 Exemplu:

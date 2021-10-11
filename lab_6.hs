@@ -1,7 +1,12 @@
 {-
 
 1.  Definiti o functie care calculeaza valoarea lui ex utilizand seria Maclaurin: Solutia va trebui sa neglijeze termenii mai mici de 10-6 ai seriei. Ajutor: puteti folosi functiile zipWith  si takeWhile. 
-  
+
+-}
+
+expm x = [(x ** e) / (product [1..n]) | e <- [0..], n <- [1..e]]
+
+{-
 2.  Definiti  o  functie digits  ::  Integer  ->  Integer astfel  incat digits  n sa  returneze  numarul  de cifre al celui mai mic multiplu, m, al lui n, cu proprietatea ca m se scrie in baza zece folosind doar cifra 1.
 De exemplu: 
 > digits 9901 

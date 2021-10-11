@@ -9,7 +9,7 @@
 
 -}
 
-
+--- UNCOMMENT THIS SOLUTION
 -- [’a’, ’b’, ’c’] -> Lista
 -- (’a’, ’b’, ’c’) -> Tuplu
 -- [(False, ’O’), (True, ’1’)] -> Lista de Tupluri

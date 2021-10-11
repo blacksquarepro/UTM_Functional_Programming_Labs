@@ -7,6 +7,7 @@ De exemplu:
 [(3,4,5),(4,3,5),(6,8,10),(8,6,10)] 
 -}
 
+
 {-
 2.  Un numar natural se numeste perfect daca este egal cu suma divizorilor sai, excluzandu-se pe sine. Folosind list comprehension, definiti o functieperfects::Int->[Int] care o lista cu toate numere perfecte panal la o anumita limita.
 De exemplu: 
